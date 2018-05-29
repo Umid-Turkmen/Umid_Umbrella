@@ -2,8 +2,8 @@ local ItemsHelper = {}
 
 local Armlet = {}
 
-local option = Menu.AddOptionBool({"ItemsHelper.MenuPath", "Armlet"}, "Auto Toggle", "On/Off")
-local optionFarmMode = Menu.AddOptionBool({"ItemsHelper.MenuPath", "Armlet"}, "Farming Mode", "Toggle on armlet when farming (On/Off)")
+local option = Menu.AddOptionBool({"ItemsHelper", "Armlet"}, "Auto Toggle", "On/Off")
+local optionFarmMode = Menu.AddOptionBool({"ItemsHelper", "Armlet"}, "Farming Mode", "Toggle on armlet when farming (On/Off)")
 
 local safeThreshold = 550
 local dangerousThreshold = 100
