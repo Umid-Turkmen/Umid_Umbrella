@@ -1,14 +1,9 @@
--- File： Armlet.lua
--- Author: EroicaCpp (https://github.com/Eroica-cpp/dota2scripts)
--- Version: 3.1
--- Release Date: 2017/6/17
-
-local Utility = require("Utility")
+local ItemsHelper = {}
 
 local Armlet = {}
 
-local option = Menu.AddOption({"Item Specific", "Armlet"}, "Auto Toggle", "On/Off")
-local optionFarmMode = Menu.AddOption({"Item Specific", "Armlet"}, "Farming Mode", "Toggle on armlet when farming (On/Off)")
+local option = Menu.AddOptionBool({"ItemsHelper.MenuPath", "Armlet"}, "Auto Toggle", "On/Off")
+local optionFarmMode = Menu.AddOptionBool({"ItemsHelper.MenuPath", "Armlet"}, "Farming Mode", "Toggle on armlet when farming (On/Off)")
 
 local safeThreshold = 550
 local dangerousThreshold = 100
