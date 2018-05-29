@@ -47,7 +47,7 @@ function Armlet.OnUpdate()
 
     local myHero = Heroes.GetLocal()
     if not myHero then return end
-    if not ItemsHelper.IsSuitableToUseItem(myHero) then return end
+    if not Utility.IsSuitableToUseItem(myHero) then return end
 
     local item = NPC.GetItem(myHero, "item_armlet", true)
     if not item then return end
