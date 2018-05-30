@@ -1,5 +1,5 @@
-local ItemsHelper = {}
-ItemsHelper.MenuPath = {"Utility", "Items Helper"}
+local Utility = require("scripts/Utility")
+local Armlet = {}
 config:SetParameter("Hotkey", "L", config.TYPE_HOTKEY)
 config:SetParameter("MinimumHP", 200)
 config:SetParameter("ToggleAlways", false)
